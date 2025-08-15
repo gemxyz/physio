@@ -1,0 +1,27 @@
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "HR Physio"
+theme = "Papermod"
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Aug 2025"
+    url = "/aug-2025/"
+    weight = 2
+
+  [[menu.main]]
+    name = "July 2025"
+    url = "/july-2025/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Spiders"
+    url = "/spiders/"
+    weight = 4
