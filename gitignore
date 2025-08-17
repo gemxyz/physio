@@ -1,0 +1,32 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Backup files
+*~
+*.bak
+
+# Ignore build artifacts from tools like Tailwind or Parcel
+/dist/
+/.parcel-cache/
