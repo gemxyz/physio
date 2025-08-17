@@ -1,5 +1,5 @@
 
-baseURL = "https://gemxyz.github.io/my-hugo-site/"
+baseURL = "https://gemxyz.github.io/physio/"
 languageCode = "en-us"
 title = "HR Physio"
 theme = "Papermod"
