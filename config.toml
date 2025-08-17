@@ -32,7 +32,10 @@ theme = "Papermod"
       unsafe = true
 
 [params]
+  disableHome = true
   [params.page]
     showDate = false
+
+
 
 
