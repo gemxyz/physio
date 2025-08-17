@@ -1,5 +1,5 @@
 
-baseURL = "http://example.org/"
+baseURL = "https://gemxyz.github.io/my-hugo-site/"
 languageCode = "en-us"
 title = "HR Physio"
 theme = "Papermod"
@@ -25,3 +25,14 @@ theme = "Papermod"
     name = "Spiders"
     url = "/spiders/"
     weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  [params.page]
+    showDate = false
+
+
