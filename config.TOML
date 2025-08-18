@@ -1,0 +1,30 @@
+baseURL = "https://gemxyz.github.io/physio/"
+languageCode = "en-us"
+title = "HR Physio"
+theme = "PaperMod"
+
+
+[menu]
+  [[menu.main]]
+    name = "Aug 2025"
+    url = "/aug-2025/"
+    weight = 1
+
+  [[menu.main]]
+    name = "July 2025"
+    url = "/july-2025/"
+    weight = 2
+
+
+[params]
+  author = "Gem C"
+  description = "Physio HR"
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows raw HTML in Markdown
+
+
