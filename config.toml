@@ -1,0 +1,41 @@
+
+baseURL = "https://gemxyz.github.io/physio/"
+languageCode = "en-us"
+title = "HR Physio"
+theme = "PaperMod"
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Aug 2025"
+    url = "/aug-2025/"
+    weight = 2
+
+  [[menu.main]]
+    name = "July 2025"
+    url = "/july-2025/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Spiders"
+    url = "/spiders/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  disableHome = true
+  [params.page]
+    showDate = false
+
+
+
+
