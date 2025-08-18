@@ -36,6 +36,10 @@ theme = "PaperMod"
   [params.page]
     showDate = false
 
+[taxonomies]
+category = "categories"
+tag = "tags"
+
 
 
 
